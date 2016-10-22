@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TDYIOS9StackView/TDYIOS9StackView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TDYIOSNew.xcodeproj">
+   </FileRef>
+</Workspace>
