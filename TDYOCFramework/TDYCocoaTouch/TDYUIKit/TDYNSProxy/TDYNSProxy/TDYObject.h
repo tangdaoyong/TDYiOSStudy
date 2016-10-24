@@ -10,4 +10,6 @@
 
 @interface TDYObject : NSObject
 
+- (void) tdy_proxy;
+
 @end

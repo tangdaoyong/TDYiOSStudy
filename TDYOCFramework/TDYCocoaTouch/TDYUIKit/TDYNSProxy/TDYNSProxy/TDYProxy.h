@@ -10,4 +10,7 @@
 
 @interface TDYProxy : NSProxy
 
+/**向外暴露的的方法*/
+- (id)initWithTarget:(id)targetOne andTargetTwo:(id)targetTwo;
+
 @end

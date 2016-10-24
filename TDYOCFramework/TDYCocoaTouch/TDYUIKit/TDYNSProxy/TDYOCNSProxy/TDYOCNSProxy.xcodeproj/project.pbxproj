@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0EA96FD1DBBC64F00D82D58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EA96FC1DBBC64F00D82D58 /* main.m */; };
+		E0EA970B1DBBC73E00D82D58 /* TDYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EA970A1DBBC73E00D82D58 /* TDYProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E0EA96F91DBBC64F00D82D58 /* TDYOCNSProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TDYOCNSProxy; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EA96FC1DBBC64F00D82D58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0EA97091DBBC73E00D82D58 /* TDYProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDYProxy.h; sourceTree = "<group>"; };
+		E0EA970A1DBBC73E00D82D58 /* TDYProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDYProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E0EA96FC1DBBC64F00D82D58 /* main.m */,
+				E0EA97091DBBC73E00D82D58 /* TDYProxy.h */,
+				E0EA970A1DBBC73E00D82D58 /* TDYProxy.m */,
 			);
 			path = TDYOCNSProxy;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EA970B1DBBC73E00D82D58 /* TDYProxy.m in Sources */,
 				E0EA96FD1DBBC64F00D82D58 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +255,7 @@
 				E0EA97021DBBC64F00D82D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
