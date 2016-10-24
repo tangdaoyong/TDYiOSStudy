@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0EA96E11DBBB36700D82D58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA96E01DBBB36700D82D58 /* main.swift */; };
+		E0EA96E81DBBB3F400D82D58 /* TDYTargetProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA96E71DBBB3F400D82D58 /* TDYTargetProxy.swift */; };
+		E0EA96EC1DBBBE8000D82D58 /* TDYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EA96EB1DBBBE8000D82D58 /* TDYProxy.m */; };
+		E0EA96EF1DBBC37D00D82D58 /* TDYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EA96EE1DBBC37D00D82D58 /* TDYObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0EA96DB1DBBB36700D82D58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E0EA96DD1DBBB36700D82D58 /* TDYNSProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TDYNSProxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EA96E01DBBB36700D82D58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E0EA96E71DBBB3F400D82D58 /* TDYTargetProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDYTargetProxy.swift; sourceTree = "<group>"; };
+		E0EA96E91DBBBE8000D82D58 /* TDYNSProxy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDYNSProxy-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0EA96EA1DBBBE8000D82D58 /* TDYProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDYProxy.h; sourceTree = "<group>"; };
+		E0EA96EB1DBBBE8000D82D58 /* TDYProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDYProxy.m; sourceTree = "<group>"; };
+		E0EA96ED1DBBC37D00D82D58 /* TDYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDYObject.h; sourceTree = "<group>"; };
+		E0EA96EE1DBBC37D00D82D58 /* TDYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDYObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0EA96DA1DBBB36700D82D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0EA96D41DBBB36700D82D58 = {
+			isa = PBXGroup;
+			children = (
+				E0EA96DF1DBBB36700D82D58 /* TDYNSProxy */,
+				E0EA96DE1DBBB36700D82D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0EA96DE1DBBB36700D82D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0EA96DD1DBBB36700D82D58 /* TDYNSProxy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0EA96DF1DBBB36700D82D58 /* TDYNSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				E0EA96E01DBBB36700D82D58 /* main.swift */,
+				E0EA96E71DBBB3F400D82D58 /* TDYTargetProxy.swift */,
+				E0EA96EA1DBBBE8000D82D58 /* TDYProxy.h */,
+				E0EA96EB1DBBBE8000D82D58 /* TDYProxy.m */,
+				E0EA96E91DBBBE8000D82D58 /* TDYNSProxy-Bridging-Header.h */,
+				E0EA96ED1DBBC37D00D82D58 /* TDYObject.h */,
+				E0EA96EE1DBBC37D00D82D58 /* TDYObject.m */,
+			);
+			path = TDYNSProxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0EA96DC1DBBB36700D82D58 /* TDYNSProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0EA96E41DBBB36700D82D58 /* Build configuration list for PBXNativeTarget "TDYNSProxy" */;
+			buildPhases = (
+				E0EA96D91DBBB36700D82D58 /* Sources */,
+				E0EA96DA1DBBB36700D82D58 /* Frameworks */,
+				E0EA96DB1DBBB36700D82D58 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDYNSProxy;
+			productName = TDYNSProxy;
+			productReference = E0EA96DD1DBBB36700D82D58 /* TDYNSProxy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0EA96D51DBBB36700D82D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDY;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "唐道勇";
+				TargetAttributes = {
+					E0EA96DC1DBBB36700D82D58 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MJR9EC2KZZ;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E0EA96D81DBBB36700D82D58 /* Build configuration list for PBXProject "TDYNSProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0EA96D41DBBB36700D82D58;
+			productRefGroup = E0EA96DE1DBBB36700D82D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EA96DC1DBBB36700D82D58 /* TDYNSProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0EA96D91DBBB36700D82D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EA96E11DBBB36700D82D58 /* main.swift in Sources */,
+				E0EA96E81DBBB3F400D82D58 /* TDYTargetProxy.swift in Sources */,
+				E0EA96EF1DBBC37D00D82D58 /* TDYObject.m in Sources */,
+				E0EA96EC1DBBBE8000D82D58 /* TDYProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0EA96E21DBBB36700D82D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0EA96E31DBBB36700D82D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E0EA96E51DBBB36700D82D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MJR9EC2KZZ;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDYNSProxy/TDYNSProxy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0EA96E61DBBB36700D82D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = MJR9EC2KZZ;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDYNSProxy/TDYNSProxy-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0EA96D81DBBB36700D82D58 /* Build configuration list for PBXProject "TDYNSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EA96E21DBBB36700D82D58 /* Debug */,
+				E0EA96E31DBBB36700D82D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0EA96E41DBBB36700D82D58 /* Build configuration list for PBXNativeTarget "TDYNSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EA96E51DBBB36700D82D58 /* Debug */,
+				E0EA96E61DBBB36700D82D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0EA96D51DBBB36700D82D58 /* Project object */;
+}
